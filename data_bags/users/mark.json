@@ -1,0 +1,7 @@
+{
+  "id": "mark",
+  "ssh_keys": ["a public key"],
+  "groups": [ "admin", "sudo", "ssh_login" ],
+  "shell": "\/bin\/bash",
+  "comment": "Mark de Brauw"
+}

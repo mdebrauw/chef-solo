@@ -1,0 +1,10 @@
+{
+  "id": "your_app",
+  "deploy_key": "a valid rsa key",
+  "application": { "database_user_password": "a password" },
+  "mysql": { "server_root_password": "a password" },
+  "backup": { "aws_access_key_id": "you guessed it",
+    "aws_secret_access_key": "and again it's a secret",
+    "passphrase": "another password"
+  }
+}

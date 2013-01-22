@@ -1,0 +1,7 @@
+server {
+  listen   80;
+  server_name <%= node["application"]["domain"] %>;
+  rails_env <%= node["application"]["environment"] %>;
+  root /srv/<%= node["application"]["id"] %>/current/public;
+  passenger_enabled on;
+}
